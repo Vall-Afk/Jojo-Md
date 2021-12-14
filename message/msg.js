@@ -5,7 +5,8 @@ const {
 const { color, bgcolor } = require('../lib/color')
 const { getBuffer, fetchJson, fetchText, getRandom, getGroupAdmins, runtime, sleep } = require("../lib/myfunc");
 const { webp2mp4File } = require("../lib/convert")
-
+const imgbb =
+      require :("imgbb-uploader");
 const fs = require ("fs")
 const moment = require("moment-timezone");
 const util = require("util")
